@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navBar {
+  display: flex;
+  margin-left: 10px;
+}
+
+.signBox {
+  display: flex;
+}
+
+.navBar li:not(:first-child),
+.signBox li:not(:first-child) {
+  margin-left: 10px;
+}
